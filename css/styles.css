@@ -1,6 +1,154 @@
+:root {
+  /* Font */
+  --main-font: DM Sans, sans-serif;
+  --main-weight: 400;
+  --main-size: 17px;
+  --secondary-size: 18px;
+
+  /* Color */
+  --main-light: #fff;
+  --main-dark: #000;
+  --accent-color: #118da8;
+}
+
 body {
   background-color: #191919;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: var(--main-weight);
+  font-size: var(--main-size);
 }
-.about-img {
-  border-radius: 12px;
+
+/* Common styles */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  font: inherit;
+  text-decoration: none;
+  color: currentColor;
+}
+
+.btn {
+  font: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.text {
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.7);
+}
+.section {
+  width: 1232px;
+  margin: 0 auto;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Section */
+
+.header {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.header-link {
+  padding: 43px 0px;
+}
+
+.header-list {
+  margin: 0;
+  padding: 0;
+}
+
+.header-items {
+  margin-left: 40px;
+  line-height: 1.59;
+
+  color: var(--main-light);
+}
+
+.header-items:first-child {
+  margin-left: 0;
+}
+
+/* Main Section */
+
+/* Hero Section */
+
+.hero {
+  padding-top: 40px;
+  align-items: flex-start;
+}
+
+.hero-container {
+  margin-left: 60px;
+  padding-top: 294px;
+}
+
+.hero-title {
+  width: 546px;
+  height: 280px;
+  margin: 0;
+  padding-bottom: 74px;
+
+  font-size: 70px;
+  line-height: 1.26;
+
+  letter-spacing: 3.2px;
+
+  color: var(--main-light);
+}
+
+.line {
+  height: 104px;
+
+  font-size: 75px;
+  line-height: 1.17;
+
+  background: url('/img/main/hero/line.png') no-repeat;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1.1;
+}
+
+.hero-desc {
+  margin: 0;
+  margin-left: 22px;
+  padding-bottom: 16px;
+
+  font-size: 15px;
+  line-height: 1.6;
+
+  color: var(--main-light);
+}
+
+.hero-list {
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+}
+
+.hero-items {
+  margin-left: 17px;
+}
+
+.hero-items:first-child {
+  margin-left: 22px;
 }

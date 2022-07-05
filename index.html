@@ -8,6 +8,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 		integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./css/styles.css">
 	<title>Castaway</title>
 </head>
@@ -15,21 +18,23 @@
 <body>
 
 	<!-- Header Section -->
-	<header>
-		<img class="header-logo" src="./img/header/logo.png" alt="logo" width="160">
+	<header class="header wrap">
+		<a href="./index.html" class="header-link link">
+			<img class="header-logo" src="./img/header/logo.png" alt="logo" width="160">
+		</a>
 		<nav class="header-nav">
-			<ul class="header-list">
+			<ul class="header-list list wrap">
 				<li class="header-items">
-					<a href="./index.html" class="header-link">Home</a>
+					<a href="./index.html" class="nav-link link current">Home</a>
 				</li>
 				<li class="header-items">
-					<a href="#episodes" class="header-link">Episodes</a>
+					<a href="#episodes" class="nav-link link">Episodes</a>
 				</li>
 				<li class="header-items">
-					<a href="#about" class="header-link">About</a>
+					<a href="#about" class="nav-link link">About</a>
 				</li>
 				<li class="header-items">
-					<a href="#contact" class="header-link">Contact</a>
+					<a href="#contact" class="nav-link link">Contact</a>
 				</li>
 			</ul>
 		</nav>
@@ -39,28 +44,29 @@
 	<main>
 
 		<!-- Hero Section -->
-		<section>
+		<section class="hero section wrap">
 			<img class="hero-img" src="./img/main/hero/hero.svg" alt="man listening to music" width="650">
 			<div class="hero-container">
 				<h1 class="hero-title">Take your podcast to the <span class="line">next</span>
 					<span class="bold">level</span>
 				</h1>
+
 				<p class="hero-desc">Listen on</p>
-				<ul class="hero-list">
+				<ul class="hero-list list wrap">
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="./img/main/hero/logo1.png" alt="logo" width="32"></a>
+						<a href="" class="hero-link link"><img src="./img/main/hero/logo1.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="./img/main/hero/logo2.png" alt="logo" width="32"></a>
+						<a href="" class="hero-link link"><img src="./img/main/hero/logo2.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="./img/main/hero/logo3.png" alt="logo" width="32"></a>
+						<a href="" class="hero-link link"><img src="./img/main/hero/logo3.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="./img/main/hero/logo4.png" alt="logo" width="32"></a>
+						<a href="" class="hero-link link"><img src="./img/main/hero/logo4.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="./img/main/hero/logo5.png" alt="logo" width="32"></a>
+						<a href="" class="hero-link link"><img src="./img/main/hero/logo5.png" alt="logo" width="32"></a>
 					</li>
 				</ul>
 			</div>
@@ -69,7 +75,7 @@
 		<!-- Episodes Section -->
 		<section id="episodes">
 			<h2 class="episodes-title">Latest episodes</h2>
-			<button type="button" class="episodes-btn">View all episodes</button>
+			<button type="button" class="episodes-btn ">View all episodes</button>
 			<ul class="episodes-list">
 				<li class="episodes-item">
 					<img src="./img/main/episodes/mixer.jpg" alt="dj mixer" class="episodes-img" width="389">
@@ -210,7 +216,9 @@
 
 	<!-- Footer Section -->
 	<footer id="contact">
-		<img src="./img/footer/logo.png" alt="logo" class="footer-logo" width="224">
+		<a href="" class="footer-link">
+			<img src="./img/footer/logo.png" alt="logo" class="footer-logo" width="224">
+		</a>
 		<ul class="social-list">
 			<li class="social-item">
 				<a href="https://instagram.com" target="_blank" rel="noopener noreferrer nofollow " class="social-link">
