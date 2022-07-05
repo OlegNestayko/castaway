@@ -20,16 +20,16 @@
 		<nav class="header-nav">
 			<ul class="header-list">
 				<li class="header-items">
-					<a href="#" class="header-link">Home</a>
+					<a href="./index.html" class="header-link">Home</a>
 				</li>
 				<li class="header-items">
-					<a href="#" class="header-link">Episodes</a>
+					<a href="#episodes" class="header-link">Episodes</a>
 				</li>
 				<li class="header-items">
-					<a href="#" class="header-link">About</a>
+					<a href="#about" class="header-link">About</a>
 				</li>
 				<li class="header-items">
-					<a href="#" class="header-link">Contact</a>
+					<a href="#contact" class="header-link">Contact</a>
 				</li>
 			</ul>
 		</nav>
@@ -37,6 +37,7 @@
 
 	<!-- Main Section -->
 	<main>
+
 		<!-- Hero Section -->
 		<section>
 			<img class="hero-img" src="./img/main/hero/hero.svg" alt="man listening to music" width="650">
@@ -47,31 +48,228 @@
 				<p class="hero-desc">Listen on</p>
 				<ul class="hero-list">
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="" alt=""></a>
+						<a href="" class="hero-link"><img src="./img/main/hero/logo1.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="" alt=""></a>
+						<a href="" class="hero-link"><img src="./img/main/hero/logo2.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="" alt=""></a>
+						<a href="" class="hero-link"><img src="./img/main/hero/logo3.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="" alt=""></a>
+						<a href="" class="hero-link"><img src="./img/main/hero/logo4.png" alt="logo" width="32"></a>
 					</li>
 					<li class="hero-items">
-						<a href="" class="hero-link"><img src="" alt=""></a>
+						<a href="" class="hero-link"><img src="./img/main/hero/logo5.png" alt="logo" width="32"></a>
 					</li>
 				</ul>
 			</div>
 		</section>
-		<section></section>
-		<section></section>
-		<section></section>
-		<section></section>
+
+		<!-- Episodes Section -->
+		<section id="episodes">
+			<h2 class="episodes-title">Latest episodes</h2>
+			<button type="button" class="episodes-btn">View all episodes</button>
+			<ul class="episodes-list">
+				<li class="episodes-item">
+					<img src="./img/main/episodes/mixer.jpg" alt="dj mixer" class="episodes-img" width="389">
+					<span class="episodes-caption">Gear</span>
+					<span class="episodes-subject">Episode 3</span>
+					<h3 class="episodes-subtitle">Should you get outboard audio gear?</h3>
+					<p class="episodes-text">Is hardware really worth it when it comes to podcasting? The answer is...it
+						depends. Here's our reasons on why you might
+						want to consider picking something up.</p>
+					<button type="button" class="episodes-button">View Episode Details</button>
+				</li>
+				<li class="episodes-item">
+					<img src="./img/main/episodes/microphone.jpg" alt="microphone" class="episodes-img" width="389">
+					<span class="episodes-caption">Tips &#x26;Tricks</span>
+					<span class="episodes-subject">Episode 2</span>
+					<h3 class="episodes-subtitle">Mic tricks to take you to the next level</h3>
+					<p class="episodes-text">Stop rolling with those default settings on your mic. These small tweaks will
+						take you from sounding good to great.</p>
+					<button type="button" class="episodes-button">View Episode Details</button>
+				</li>
+				<li class="episodes-item">
+					<img src="./img/main/episodes/man.jpg" alt="man with microphone " class="episodes-img" width="389">
+					<span class="episodes-caption">Gear</span>
+					<span class="episodes-subject">Episode 1</span>
+					<h3 class="episodes-subtitle">The best microphone under $200</h3>
+					<p class="episodes-text">With so many microphones on the market, how are you supposed to know what's the
+						best? Take a look at our top picks.</p>
+					<button type="button" class="episodes-button">View Episode Details</button>
+				</li>
+			</ul>
+		</section>
+
+		<!-- About us -->
+		<article id="about">
+			<img src="./img/main/about/arrow.png" alt="arrow" class="about-pic" width="112">
+			<h2 class="about-title">Meet your host</h2>
+			<p class="about-subtitle">Jacob Paulaner</p>
+			<p class="about-text">Jacob has a background in audio engineering, and has been podcasting since the early
+				days.</p>
+			<p class="about-text">He's here to help you level up your game by sharing everything he's learned along the
+				way.</p>
+			<img src="./img/main/about/man.png" alt="man with microphone" class="about-img" width="650">
+		</article>
+
+		<!-- Subscribe -->
+		<section>
+			<p class="subscribe-text">Email Newsletter</p>
+			<h2 class="subscribe-title">Subscribe for updates</h2>
+			<div class="subscribe-container">
+				<form class="subscribe-form" action="#">
+					<input class="subscribe-user" type="text" name="username" placeholder="Name">
+					<input class="subscribe-user" type="text" name="mail" placeholder="Email">
+				</form>
+				<button class="subcribe-btn" type="submit">Submit</button>
+			</div>
+		</section>
+
+		<!-- Reviews Section -->
+		<section>
+			<h2 class="visually-hidden">Reviews</h2>
+			<ul class="reviews-list">
+				<li class="reviews-item">
+					<div class="reviews-container">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+
+					</div>
+					<p class="reviews-text">I can't recommend this podcast enough</p>
+					<p class="reviews-text">Betty Lacey</p>
+				</li>
+				<li class="reviews-item">
+					<div class="reviews-container">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+
+					</div>
+					<p class="reviews-text">Jacob is the best in the business</p>
+					<p class="reviews-text">Adam Driver</p>
+				</li>
+				<li class="reviews-item">
+					<div class="reviews-container">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+
+					</div>
+					<p class="reviews-text">A wealth of audio knowledge</p>
+					<p class="reviews-text">Marcus Brown</p>
+				</li>
+				<li class="reviews-item">
+					<div class="reviews-container">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+
+					</div>
+					<p class="reviews-text">Every episode is a gem!</p>
+					<p class="reviews-text">Jessica Knowl</p>
+				</li>
+				<li class="reviews-item">
+					<div class="reviews-container">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+
+					</div>
+					<p class="reviews-text">Whoa whoa, let me take some notes!</p>
+					<p class="reviews-text">Scott Adams</p>
+				</li>
+				<li class="reviews-item">
+					<div class="reviews-container">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">
+
+					</div>
+					<p class="reviews-text">I've upped my game considerably since I started listening</p>
+					<p class="reviews-text">Steven Blast</p>
+				</li>
+
+			</ul>
+		</section>
 	</main>
 
 	<!-- Footer Section -->
-	<footer></footer>
+	<footer id="contact">
+		<img src="./img/footer/logo.png" alt="logo" class="footer-logo" width="224">
+		<ul class="social-list">
+			<li class="social-item">
+				<a href="https://instagram.com" target="_blank" rel="noopener noreferrer nofollow " class="social-link">
+					<img src="./img/footer/instagram.png" alt="instagram" class="social-pic" width="25">
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="https://twitter.com" class="social-link" target="_blank" rel="noopener noreferrer nofollow ">
+					<img src="./img/footer/twitter.png" alt="twitter" class="social-pic" width="25">
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="https://facebook.com" class="social-link" target="_blank" rel="noopener noreferrer nofollow ">
+					<img src="./img/footer/facebook.png" alt="facebook" class="social-pic" width="25">
+				</a>
+			</li>
+		</ul>
+		<ul class="menu-list">
+			<li class="menu-item"><a href="./index.html" class="menu-link">Home</a> </li>
+			<li class="menu-item"><a href="#about" class="menu-link">About</a> </li>
+			<li class="menu-item"><a href="#episodes" class="menu-link">Episodes</a> </li>
+			<li class="menu-item"><a href="#contact" class="menu-link">Contact</a> </li>
+		</ul>
+		<ul class="menu-list">
+			<li class="menu-item">Style Guide</li>
+			<li class="menu-item">Instructions</li>
+			<li class="menu-item">Changelog</li>
+			<li class="menu-item">Credit</li>
+			<li class="menu-item">Powered by Webflow</li>
+			<li class="menu-item">Licenses</li>
+		</ul>
+		<ul class="footer-list">
+			<li class="footer-item">
+				<a href="#" class="footer-link">
+					<img src="./img/footer/logo1.svg" alt="logo" class="footer-pic" width="32">
+				</a>
+			</li>
+			<li class="footer-item">
+				<a href="#" class="footer-link">
+					<img src="./img/footer/logo2.svg" alt="logo" class="footer-pic" width="32">
+				</a>
+			</li>
+			<li class="footer-item">
+				<a href="#" class="footer-link">
+					<img src="./img/footer/logo3.svg" alt="logo" class="footer-pic" width="32">
+				</a>
+			</li>
+			<li class="footer-item">
+				<a href="#" class="footer-link">
+					<img src="./img/footer/logo4.svg" alt="logo" class="footer-pic" width="32">
+				</a>
+			</li>
+			<li class="footer-item">
+				<a href="#" class="footer-link">
+					<img src="./img/footer/logo5.svg" alt="logo" class="footer-pic" width="32">
+				</a>
+			</li>
+		</ul>
+	</footer>
 
 
 </body>
