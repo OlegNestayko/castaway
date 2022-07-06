@@ -73,70 +73,100 @@
 		</section>
 
 		<!-- Episodes Section -->
-		<section id="episodes">
-			<h2 class="episodes-title">Latest episodes</h2>
-			<button type="button" class="episodes-btn ">View all episodes</button>
-			<ul class="episodes-list">
-				<li class="episodes-item">
-					<img src="./img/main/episodes/mixer.jpg" alt="dj mixer" class="episodes-img" width="389">
-					<span class="episodes-caption">Gear</span>
-					<span class="episodes-subject">Episode 3</span>
-					<h3 class="episodes-subtitle">Should you get outboard audio gear?</h3>
-					<p class="episodes-text">Is hardware really worth it when it comes to podcasting? The answer is...it
-						depends. Here's our reasons on why you might
-						want to consider picking something up.</p>
-					<button type="button" class="episodes-button">View Episode Details</button>
+		<section id="episodes" class="section">
+			<div class="episodes-header wrap">
+				<h2 class="episodes-title">Latest episodes</h2>
+				<button type="button" class="episodes-btn btn ">View all episodes</button>
+			</div>
+			<ul class="episodes-list list">
+				<li class="episodes-item ">
+					<div class="episodes-card wrap">
+						<img src="./img/main/episodes/mixer.jpg" alt="dj mixer" class="episodes-img" width="389">
+						<div class="episodes-right">
+							<span class="episodes-caption">Gear</span>
+							<span class="episodes-subject">Episode 3</span>
+							<h3 class="episodes-subtitle">Should you get outboard audio gear?</h3>
+							<p class="episodes-text text">Is hardware really worth it when it comes to podcasting? The answer
+								is...it
+								depends. Here's our reasons on why you might
+								want to consider picking something up.</p>
+							<button type="button" class="episodes-button btn">View Episode Details</button>
+						</div>
+					</div>
 				</li>
 				<li class="episodes-item">
-					<img src="./img/main/episodes/microphone.jpg" alt="microphone" class="episodes-img" width="389">
-					<span class="episodes-caption">Tips &#x26;Tricks</span>
-					<span class="episodes-subject">Episode 2</span>
-					<h3 class="episodes-subtitle">Mic tricks to take you to the next level</h3>
-					<p class="episodes-text">Stop rolling with those default settings on your mic. These small tweaks will
-						take you from sounding good to great.</p>
-					<button type="button" class="episodes-button">View Episode Details</button>
+					<div class="episodes-card wrap">
+						<img src="./img/main/episodes/microphone.jpg" alt="microphone" class="episodes-img" width="389">
+						<div class="episodes-right">
+							<span class="episodes-caption">Tips &#x26;Tricks</span>
+							<span class="episodes-subject">Episode 2</span>
+							<h3 class="episodes-subtitle">Mic tricks to take you to the next level</h3>
+							<p class="episodes-text text">Stop rolling with those default settings on your mic. These small
+								tweaks
+								will
+								take you from sounding good to great.</p>
+							<button type="button" class="episodes-button btn">View Episode Details</button>
+						</div>
+					</div>
 				</li>
 				<li class="episodes-item">
-					<img src="./img/main/episodes/man.jpg" alt="man with microphone " class="episodes-img" width="389">
-					<span class="episodes-caption">Gear</span>
-					<span class="episodes-subject">Episode 1</span>
-					<h3 class="episodes-subtitle">The best microphone under $200</h3>
-					<p class="episodes-text">With so many microphones on the market, how are you supposed to know what's the
-						best? Take a look at our top picks.</p>
-					<button type="button" class="episodes-button">View Episode Details</button>
+					<div class="episodes-card wrap">
+						<img src="./img/main/episodes/man.jpg" alt="man with microphone " class="episodes-img" width="389">
+						<div class="episodes-right">
+							<span class="episodes-caption">Gear</span>
+							<span class="episodes-subject">Episode 1</span>
+							<h3 class="episodes-subtitle">The best microphone under $200</h3>
+							<p class="episodes-text text">With so many microphones on the market, how are you supposed to know
+								what's the
+								best? Take a look at our top picks.</p>
+							<button type="button" class="episodes-button btn">View Episode Details</button>
+						</div>
+					</div>
 				</li>
 			</ul>
 		</section>
 
 		<!-- About us -->
-		<article id="about">
-			<img src="./img/main/about/arrow.png" alt="arrow" class="about-pic" width="112">
-			<h2 class="about-title">Meet your host</h2>
-			<p class="about-subtitle">Jacob Paulaner</p>
-			<p class="about-text">Jacob has a background in audio engineering, and has been podcasting since the early
-				days.</p>
-			<p class="about-text">He's here to help you level up your game by sharing everything he's learned along the
-				way.</p>
-			<img src="./img/main/about/man.png" alt="man with microphone" class="about-img" width="650">
+		<article id="about" class="section">
+			<div class="about-container wrap">
+				<div class="about-left">
+					<img src="./img/main/about/arrow.png" alt="arrow" class="about-pic" width="112">
+					<h2 class="about-title">Meet your host</h2>
+					<p class="about-subtitle">Jacob Paulaner</p>
+					<p class="about-text text">Jacob has a background in audio engineering, and has been podcasting since the
+						early
+						days.</p>
+					<p class="about-text text">He's here to help you level up your game by sharing everything he's learned
+						along
+						the
+						way.</p>
+				</div>
+				<img src="./img/main/about/man.png" alt="man with microphone" class="about-img" width="650">
+			</div>
+
 		</article>
 
 		<!-- Subscribe -->
-		<section>
-			<p class="subscribe-text">Email Newsletter</p>
-			<h2 class="subscribe-title">Subscribe for updates</h2>
-			<div class="subscribe-container">
-				<form class="subscribe-form" action="#">
-					<input class="subscribe-user" type="text" name="username" placeholder="Name">
-					<input class="subscribe-user" type="text" name="mail" placeholder="Email">
-				</form>
-				<button class="subcribe-btn" type="submit">Submit</button>
+		<section class="subscribe section ">
+			<div class="subscribe-container wrap">
+				<div class="container-left">
+					<p class="subscribe-text">Email Newsletter</p>
+					<h2 class="subscribe-title">Subscribe for updates</h2>
+				</div>
+				<div class="container-right">
+					<form class="subscribe-form" action="#">
+						<input class="subscribe-user" type="text" name="username" placeholder="Name">
+						<input class="subscribe-user" type="text" name="mail" placeholder="Email">
+					</form>
+					<button class="subcribe-btn btn" type="submit">Submit</button>
+				</div>
 			</div>
 		</section>
 
 		<!-- Reviews Section -->
-		<section>
+		<section class="reviews section">
 			<h2 class="visually-hidden">Reviews</h2>
-			<ul class="reviews-list">
+			<ul class="reviews-list list wrap">
 				<li class="reviews-item">
 					<div class="reviews-container">
 						<img src="./img/main/reviews/star.svg" alt="star" class="reviews-pic">

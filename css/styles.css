@@ -18,11 +18,16 @@ body {
   font-weight: var(--main-weight);
   font-size: var(--main-size);
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 
 /* Common styles */
 
 .list {
   list-style: none;
+  padding-left: 0;
 }
 
 .link {
@@ -32,10 +37,16 @@ body {
 }
 
 .btn {
+  padding: 12px 15px 12px 20px;
+
   font: inherit;
-  border: none;
-  background-color: transparent;
+  color: var(--main-light);
+
+  background-color: var(--accent-color);
+
   cursor: pointer;
+  border: none;
+  border-radius: 6px;
 }
 
 .text {
@@ -44,7 +55,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 .section {
-  width: 1232px;
+  width: 1302px;
   margin: 0 auto;
 }
 
@@ -58,11 +69,26 @@ body {
   align-items: center;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Header Section */
 
 .header {
   width: 1320px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .header-link {
@@ -90,12 +116,11 @@ body {
 /* Hero Section */
 
 .hero {
-  padding-top: 40px;
+  padding-bottom: 100px;
   align-items: flex-start;
 }
 
 .hero-container {
-  margin-left: 60px;
   padding-top: 294px;
 }
 
@@ -154,3 +179,162 @@ body {
 }
 
 /* Episodes Section */
+
+.episodes-header {
+  padding-bottom: 66px;
+}
+
+.episodes-title {
+  font-size: 64px;
+  line-height: 1.24;
+
+  letter-spacing: 2.88px;
+
+  color: var(--main-light);
+}
+
+.episodes-btn {
+  line-height: 1.59;
+}
+
+.episodes-item {
+  margin-bottom: 60px;
+  background-color: var(--main-dark);
+  border-radius: 32px;
+}
+
+.episodes-item:last-child {
+  margin-bottom: 160px;
+}
+
+.episodes-card {
+  padding: 40px;
+  align-items: unset;
+}
+
+.episodes-right {
+  width: 778px;
+}
+
+.episodes-caption {
+  display: inline-block;
+  padding: 0 16px;
+  margin: 8px 0px 48px;
+
+  font-size: var(--secondary-size);
+  line-height: 1.5;
+
+  color: var(--main-light);
+
+  background: #191919;
+  border-radius: 6px;
+}
+
+.episodes-subject {
+  display: block;
+  padding-bottom: 17px;
+  line-height: 1.59;
+
+  color: var(--accent-color);
+}
+
+.episodes-subtitle {
+  padding-bottom: 28px;
+
+  font-size: 64px;
+  line-height: 1.1;
+
+  letter-spacing: 2.56px;
+
+  color: var(--main-light);
+}
+
+.episodes-text {
+  padding-bottom: 26px;
+}
+
+/* About Section */
+
+.about-container {
+  align-items: flex-start;
+  padding: 100px 0;
+}
+
+.about-left {
+  margin: 147px 60px 147px 0;
+}
+
+.about-pic {
+  padding-bottom: 20px;
+}
+
+.about-title {
+  font-size: var(--secondary-size);
+  line-height: 1.5;
+
+  color: var(--accent-color);
+}
+
+.about-subtitle {
+  padding-bottom: 28px;
+  font-size: 65px;
+  line-height: 1.22;
+
+  letter-spacing: 2.88px;
+
+  color: var(--main-light);
+}
+
+.about-text {
+  padding-bottom: 33px;
+}
+
+.about-text:last-child {
+  padding-bottom: 0;
+}
+
+/* Subscribe Section */
+
+.subscribe {
+  padding: 100px 0;
+}
+
+.subscribe-container {
+  background: var(--main-dark);
+  border-radius: 32px;
+}
+
+.subscribe-text {
+  padding-top: 60px;
+  margin-left: 60px;
+  font-size: 18px;
+  line-height: 1.5;
+
+  color: var(--accent-color);
+}
+.subscribe-title {
+  margin-left: 60px;
+  padding-bottom: 143px;
+  width: 436px;
+  font-size: 72px;
+  line-height: 1.1;
+
+  letter-spacing: 2.88px;
+
+  color: var(--main-light);
+}
+.container-right {
+  margin-right: 60px;
+}
+
+.subscribe-user {
+  display: block;
+  padding: 26px 320px 27px 19px;
+  margin-bottom: 20px;
+
+  background-color: #191919;
+  border: 1px solid #191919;
+  border-radius: 6px;
+}
+
+/* Reviews Section */
