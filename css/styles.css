@@ -119,7 +119,7 @@ body {
   font-size: 75px;
   line-height: 1.17;
 
-  background: url('/img/main/hero/line.png') no-repeat;
+  background: url('../img/main/hero/line.png') no-repeat;
 }
 
 .bold {
@@ -152,3 +152,5 @@ body {
 .hero-items:first-child {
   margin-left: 22px;
 }
+
+/* Episodes Section */
